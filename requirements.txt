@@ -1,0 +1,13 @@
+# Training and evaluation (host)
+ultralytics==8.4.175
+torch>=2.2
+onnx
+onnxsim
+onnxruntime
+opencv-python
+pycocotools
+numpy
+matplotlib
+# INT8 conversion for Rockchip NPUs (Linux x86-64; see Rockchip's rknn-toolkit2 for installation)
+# rknn-toolkit2==2.3.2
+pytest
