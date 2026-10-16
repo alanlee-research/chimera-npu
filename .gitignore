@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.onnx
+*.rknn
+*.pt
+*.nv12
+*.jsonl
+runs/
+datasets/
+eval_work/
+eval800/
+.DS_Store
