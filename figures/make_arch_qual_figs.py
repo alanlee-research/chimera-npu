@@ -45,7 +45,7 @@ def arch():
     c4 = box(90, 99, y4, "C3k2 ($P4$)\n128 ch", C["bb"]); arr(R(c3), L(c4))
     h4 = box(101.5, 110.5, y4, "Head $P4$\nstride 16", C["head"]); arr(R(c4), L(h4))
     ax.text(1, 13, "$P5$ stage removed\ncontext: MDRF at stride 16\nstride-4 detail: HFGate\nheads at strides 8 and 16", fontsize=6.6, va="center")
-    fig.savefig("fig_arch_jr.pdf", bbox_inches="tight", pad_inches=0.02); fig.savefig("fig_arch_jr.png", dpi=220, bbox_inches="tight")
+    fig.savefig("Fig2.pdf", bbox_inches="tight", pad_inches=0.02); fig.savefig("Fig2.png", dpi=220, bbox_inches="tight")
 
 
 def qual():
@@ -54,7 +54,7 @@ def qual():
     for ax, im, t in [(axs[0], a, "(a) Full frame only"), (axs[1], b, "(b) Full frame + four tiles (merge rule)")]:
         ax.imshow(im); ax.set_xticks([]); ax.set_yticks([]); ax.set_title(t, fontsize=7.5, pad=2)
     plt.subplots_adjust(hspace=0.2, left=0.01, right=0.99, top=0.94, bottom=0.01)
-    fig.savefig("fig5_qualitative_jr.pdf", dpi=300); fig.savefig("fig5_qualitative_jr.png", dpi=200)
+    fig.savefig("Fig4.pdf", dpi=300); fig.savefig("Fig4.png", dpi=200)
 
 
 if __name__ == "__main__":

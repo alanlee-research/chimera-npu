@@ -54,7 +54,6 @@ T = 1000 / 30
 
 
 def save(fig, name):
-    name = name + "_jr"
     fig.savefig(f"{name}.pdf")
     fig.savefig(f"{name}.png", dpi=300)
     plt.close(fig)
@@ -87,7 +86,7 @@ def fig1():
     ax.set_ylim(33.6, 36.3)
     ax.grid(True)
     ax.legend(loc="lower left", frameon=True)
-    save(fig, "fig1_pareto_frontier")
+    save(fig, "Fig1")
 
 
 # ---------------------------------------------------------------- Fig. 2
@@ -178,7 +177,7 @@ def fig3():
     ax.set_xlim(-1, 102); ax.set_ylim(-0.05, 2.75)
     ax.grid(axis='x')
     ax.legend(loc="lower left", fontsize=6.5, ncol=1, framealpha=0.95, bbox_to_anchor=(0.0, -0.02))
-    save(fig, "fig3_hybrid_timeline")
+    save(fig, "Fig3")
 
 
 # ---------------------------------------------------------------- Fig. 4
