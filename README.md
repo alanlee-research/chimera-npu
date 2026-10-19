@@ -3,7 +3,7 @@
 Code, model definitions, and evaluation scripts for the paper
 
 > **Converting NPU Headroom into Small-Object Accuracy: Hardware-Aware Detector Design and Adaptive Slicing for Real-Time UAV Detection**
-> Van-An Le. Submitted to the *Journal of Real-Time Image Processing*.
+> Van-An Le. Manuscript under review.
 
 The work treats inference speed on an embedded NPU (Rockchip RK3582) as a budget. **Chimera** is a detector without a stride-32 stage, designed from on-device profiling. It runs in 10.88 ms on one NPU core. An **AIMD scheduler** spends the remaining NPU time on image tiles and still returns a full-frame result for every frame at 30 FPS.
 
@@ -100,13 +100,13 @@ Boxes are in source-frame pixels; `class_id` is 0 Person, 1 Two-wheeler, 2 Car, 
 ## Citation
 
 ```bibtex
-@article{le2026chimera,
-  author  = {Le, Van-An},
-  title   = {Converting {NPU} Headroom into Small-Object Accuracy: Hardware-Aware Detector Design
-             and Adaptive Slicing for Real-Time {UAV} Detection},
-  journal = {Journal of Real-Time Image Processing},
-  note    = {Submitted},
-  year    = {2026}
+@misc{le2026chimera,
+  author = {Le, Van-An},
+  title  = {Converting {NPU} Headroom into Small-Object Accuracy: Hardware-Aware Detector Design
+            and Adaptive Slicing for Real-Time {UAV} Detection},
+  note   = {Manuscript under review},
+  year   = {2026},
+  url    = {https://github.com/alanlee-research/chimera-npu}
 }
 ```
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draws Fig. 2 (Chimera architecture) and Fig. 4 (qualitative comparison) of the JRTIP manuscript."""
+"""Draws Fig. 2 (Chimera architecture) and Fig. 4 (qualitative comparison) of the manuscript."""
 import cv2
 import matplotlib
 matplotlib.use("Agg")
