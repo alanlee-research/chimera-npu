@@ -37,11 +37,17 @@ chimera/            model definition
                       chimera_lrelu_noMDRF.yaml, chimera_lrelu_noP2.yaml (ablation, Table 5)
 data/dataset_prep.py  builds the 832x480 training/evaluation set from VisDrone-DET (4 merged classes)
 train/train_dual.py   trains YOLO11n-LeakyReLU and Chimera-LReLU in parallel on two GPUs, exports ONNX
+train/train_ablation.py  trains the two ablation variants of Table 5 (w/o MDRF, w/o P2 path) with the same protocol
 deploy/convert_rknn.py  INT8 conversion with rknn-toolkit2 (per-channel, 300 calibration images)
 scheduler/          reference implementation of the AIMD scheduler and the tile merge rule (+ tests)
 eval/               mAP on the 800-image subset, paired bootstrap, slicing evaluation (VisDrone-DET, UAVDT)
 figures/            script that draws the paper figures from the reported numbers
 results/            metric files behind the tables of the paper
+  int8_800/           FP32/INT8 accuracy on the 800-image subset, bootstrap intervals; repeated_runs/ holds the seed 42, 9 and 16 runs
+  ablation/           Table 5: accuracy of the ablation variants and their NPU latency (batch E)
+  slicing/            Table 7 and the stale-tile (k tiles per image) analysis at equal false positives
+  streaming/          Table 8 coverage per sequence, AIMD versus fixed-rate scheduling
+  seeds_summary.txt   FP32 accuracy over four training runs
 ```
 
 ## Setup

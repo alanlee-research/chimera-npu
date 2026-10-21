@@ -1,0 +1,26 @@
+model,pass,ms_per_inference
+chimera_lrelu (paper model),1,11.65
+yolo11n_lrelu (paper model),1,12.8
+chimera_lrelu seed 42,1,11.72
+chimera_lrelu_noMDRF,1,11.33
+chimera_lrelu_noP2,1,10.51
+chimera_lrelu (paper model),2,11.75
+yolo11n_lrelu (paper model),2,12.86
+chimera_lrelu seed 42,2,11.66
+chimera_lrelu_noMDRF,2,11.37
+chimera_lrelu_noP2,2,10.46
+chimera_lrelu (paper model),3,11.7
+yolo11n_lrelu (paper model),3,12.84
+chimera_lrelu seed 42,3,11.69
+chimera_lrelu_noMDRF,3,11.32
+chimera_lrelu_noP2,3,10.54
+chimera_lrelu (paper model),4,11.76
+yolo11n_lrelu (paper model),4,12.77
+chimera_lrelu seed 42,4,11.77
+chimera_lrelu_noMDRF,4,11.3
+chimera_lrelu_noP2,4,10.46
+chimera_lrelu (paper model),5,11.72
+yolo11n_lrelu (paper model),5,12.75
+chimera_lrelu seed 42,5,11.75
+chimera_lrelu_noMDRF,5,11.34
+chimera_lrelu_noP2,5,10.67

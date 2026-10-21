@@ -1,5 +1,5 @@
 {
- "chimera_p34_lrelu|full|0.3": {
+ "chimera_lrelu|full|0.3": {
   "mAP50": 0.5403017339831254,
   "mAP50_95": 0.29682986197648187,
   "small_mAP50": 0.3550710586969932,
@@ -8,7 +8,7 @@
   "precision": 0.8398964688482159,
   "fp_per_img": 5.18562874251497
  },
- "chimera_p34_lrelu|full|0.25": {
+ "chimera_lrelu|full|0.25": {
   "mAP50": 0.5403017339831254,
   "mAP50_95": 0.29682986197648187,
   "small_mAP50": 0.3550710586969932,
@@ -17,7 +17,7 @@
   "precision": 0.8046781628820215,
   "fp_per_img": 6.850299401197605
  },
- "chimera_p34_lrelu|full|0.2": {
+ "chimera_lrelu|full|0.2": {
   "mAP50": 0.5403017339831254,
   "mAP50_95": 0.29682986197648187,
   "small_mAP50": 0.3550710586969932,
@@ -26,7 +26,7 @@
   "precision": 0.7635336576180762,
   "fp_per_img": 9.023952095808383
  },
- "chimera_p34_lrelu|full|0.15": {
+ "chimera_lrelu|full|0.15": {
   "mAP50": 0.5403017339831254,
   "mAP50_95": 0.29682986197648187,
   "small_mAP50": 0.3550710586969932,
@@ -35,7 +35,7 @@
   "precision": 0.7137420718816068,
   "fp_per_img": 12.161676646706587
  },
- "chimera_p34_lrelu|full|0.1": {
+ "chimera_lrelu|full|0.1": {
   "mAP50": 0.5403017339831254,
   "mAP50_95": 0.29682986197648187,
   "small_mAP50": 0.3550710586969932,
@@ -44,7 +44,7 @@
   "precision": 0.6434336023477623,
   "fp_per_img": 17.461077844311376
  },
- "chimera_p34_lrelu|full+4 tiles, new merge|0.3": {
+ "chimera_lrelu|full+4 tiles, new merge|0.3": {
   "mAP50": 0.6139460016161886,
   "mAP50_95": 0.32343150180028113,
   "small_mAP50": 0.4741466972133686,
@@ -53,7 +53,7 @@
   "precision": 0.7577347323110035,
   "fp_per_img": 10.784431137724551
  },
- "chimera_p34_lrelu|full+4 tiles, new merge|0.4": {
+ "chimera_lrelu|full+4 tiles, new merge|0.4": {
   "mAP50": 0.6139460016161886,
   "mAP50_95": 0.32343150180028113,
   "small_mAP50": 0.4741466972133686,
@@ -62,7 +62,7 @@
   "precision": 0.8235944409349337,
   "fp_per_img": 6.688622754491018
  },
- "chimera_p34_lrelu|full+4 tiles, new merge|0.5": {
+ "chimera_lrelu|full+4 tiles, new merge|0.5": {
   "mAP50": 0.6139460016161886,
   "mAP50_95": 0.32343150180028113,
   "small_mAP50": 0.4741466972133686,
@@ -71,7 +71,7 @@
   "precision": 0.8807547169811321,
   "fp_per_img": 3.784431137724551
  },
- "chimera_p34_lrelu|full+4 tiles, raw merge|0.3": {
+ "chimera_lrelu|full+4 tiles, raw merge|0.3": {
   "mAP50": 0.5857183474736715,
   "mAP50_95": 0.3087808267032213,
   "small_mAP50": 0.44786970546749666,
@@ -80,7 +80,7 @@
   "precision": 0.7073715562174236,
   "fp_per_img": 14.119760479041917
  },
- "chimera_p34_lrelu|SAHI only|0.3": {
+ "chimera_lrelu|SAHI only|0.3": {
   "mAP50": 0.5754205925374675,
   "mAP50_95": 0.28633983225376075,
   "small_mAP50": 0.46186282390313077,

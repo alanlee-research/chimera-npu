@@ -1,5 +1,5 @@
 {
- "chimera_p34_lrelu|full|0.3": {
+ "chimera_lrelu|full|0.3": {
   "mAP50": 0.33032250680181724,
   "mAP50_95": 0.2006295221275513,
   "small_mAP50": 0.20407152277620452,
@@ -8,7 +8,7 @@
   "precision": 0.8452653311757157,
   "fp_per_img": 2.972132904608789
  },
- "chimera_p34_lrelu|full|0.25": {
+ "chimera_lrelu|full|0.25": {
   "mAP50": 0.33032250680181724,
   "mAP50_95": 0.2006295221275513,
   "small_mAP50": 0.20407152277620452,
@@ -17,7 +17,7 @@
   "precision": 0.8114244246319718,
   "fp_per_img": 3.8992497320471595
  },
- "chimera_p34_lrelu|full|0.2": {
+ "chimera_lrelu|full|0.2": {
   "mAP50": 0.33032250680181724,
   "mAP50_95": 0.2006295221275513,
   "small_mAP50": 0.20407152277620452,
@@ -26,7 +26,7 @@
   "precision": 0.7742198360577154,
   "fp_per_img": 5.048231511254019
  },
- "chimera_p34_lrelu|full|0.15": {
+ "chimera_lrelu|full|0.15": {
   "mAP50": 0.33032250680181724,
   "mAP50_95": 0.2006295221275513,
   "small_mAP50": 0.20407152277620452,
@@ -35,7 +35,7 @@
   "precision": 0.7179387834172801,
   "fp_per_img": 7.022508038585209
  },
- "chimera_p34_lrelu|full|0.1": {
+ "chimera_lrelu|full|0.1": {
   "mAP50": 0.33032250680181724,
   "mAP50_95": 0.2006295221275513,
   "small_mAP50": 0.20407152277620452,
@@ -44,7 +44,7 @@
   "precision": 0.6398053202556101,
   "fp_per_img": 10.391211146838156
  },
- "chimera_p34_lrelu|full+4 tiles, new merge|0.3": {
+ "chimera_lrelu|full+4 tiles, new merge|0.3": {
   "mAP50": 0.3935619529832531,
   "mAP50_95": 0.22014995656436565,
   "small_mAP50": 0.2875478267630856,
@@ -53,7 +53,7 @@
   "precision": 0.7653028607959086,
   "fp_per_img": 6.295819935691318
  },
- "chimera_p34_lrelu|full+4 tiles, new merge|0.4": {
+ "chimera_lrelu|full+4 tiles, new merge|0.4": {
   "mAP50": 0.3935619529832531,
   "mAP50_95": 0.22014995656436565,
   "small_mAP50": 0.2875478267630856,
@@ -62,7 +62,7 @@
   "precision": 0.8370446287151775,
   "fp_per_img": 3.7491961414790995
  },
- "chimera_p34_lrelu|full+4 tiles, new merge|0.5": {
+ "chimera_lrelu|full+4 tiles, new merge|0.5": {
   "mAP50": 0.3935619529832531,
   "mAP50_95": 0.22014995656436565,
   "small_mAP50": 0.2875478267630856,
@@ -71,7 +71,7 @@
   "precision": 0.8894620882368747,
   "fp_per_img": 2.204715969989282
  },
- "chimera_p34_lrelu|full+4 tiles, raw merge|0.3": {
+ "chimera_lrelu|full+4 tiles, raw merge|0.3": {
   "mAP50": 0.3863272687309429,
   "mAP50_95": 0.21723560646625356,
   "small_mAP50": 0.27849799062934744,
@@ -80,7 +80,7 @@
   "precision": 0.7292632372338421,
   "fp_per_img": 7.69989281886388
  },
- "chimera_p34_lrelu|SAHI only|0.3": {
+ "chimera_lrelu|SAHI only|0.3": {
   "mAP50": 0.38186612728403335,
   "mAP50_95": 0.20572651987811016,
   "small_mAP50": 0.2876434482129953,
